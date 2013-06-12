@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Entity1" representedClassName="Entity1" syncable="YES">
+        <attribute name="title1" optional="YES" attributeType="String" defaultValueString="TITLE 1" syncable="YES"/>
+    </entity>
+    <entity name="Entity2" representedClassName="Entity2" syncable="YES">
+        <attribute name="title2" optional="YES" attributeType="String" defaultValueString="TITLE 2" syncable="YES"/>
+    </entity>
+    <configuration name="Configuration1">
+        <memberEntity name="Entity1"/>
+    </configuration>
+    <configuration name="Configuration2">
+        <memberEntity name="Entity2"/>
+    </configuration>
+    <elements>
+        <element name="Entity1" positionX="160" positionY="192" width="128" height="60"/>
+        <element name="Entity2" positionX="160" positionY="192" width="128" height="60"/>
+    </elements>
+</model>
